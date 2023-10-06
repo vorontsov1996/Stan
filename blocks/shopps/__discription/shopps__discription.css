@@ -1,0 +1,24 @@
+.shopps__discription {
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .shopps__discription {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .shopps__discription {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shopps__discription {
+        display: block;
+    }
+}

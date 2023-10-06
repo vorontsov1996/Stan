@@ -1,0 +1,20 @@
+.shopps__wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 890px) {
+    .shopps__wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .shopps__wrap {
+        padding-top: 70px;
+    }
+}

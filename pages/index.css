@@ -1,0 +1,49 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+
+
+            /*----Блок stan----*/
+/*Блок*/
+@import url(../blocks/stan/stan.css);
+
+            /*----Блок header----*/
+/*Блок*/
+@import url(../blocks/header/header.css);
+/*Элементы*/
+@import url(../blocks/header/__wrap/header__wrap.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__discription/header__discription.css);
+
+            /*----Блок main*/
+/*Блок*/
+@import url(../blocks/main/main.css);
+
+            /*----Блок shopps*/
+/*Блок*/
+@import url(../blocks/shopps/shopps.css);
+/*Элементы*/
+@import url(../blocks/shopps/__title/shopps__title.css);
+@import url(../blocks/shopps/__wrap/shopps__wrap.css);
+@import url(../blocks/shopps/__photo/shopps__photo.css);
+@import url(../blocks/shopps/__discription/shopps__discription.css);
+@import url(../blocks/shopps/__text/shopps__text.css);
+@import url(../blocks/shopps/__location/shopps__location.css);
+@import url(../blocks/shopps/__map/shopps__map.css);
+@import url(../blocks/shopps/__points/shopps__points.css);
+@import url(../blocks/shopps/__point/shopps__point.css);
+@import url(../blocks/shopps/__icon/shopps__icon.css);
+@import url(../blocks/shopps/__link/shopps__link.css);
+/*Модификаторы*/
+@import url(../blocks/shopps/__discription/_two/shopps__discription_two.css);
+@import url(../blocks/shopps/__text/_bold/shoops__text_bold.css);
+
+            /*----Блок footer*/
+/*Блок*/
+@import url(../blocks/footer/footer.css);
+/*Элементы*/
+@import url(../blocks/footer/__wrap/footer__wrap.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__phone/footer__phone.css);

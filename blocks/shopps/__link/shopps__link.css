@@ -1,0 +1,15 @@
+.shopps__link {
+    color: #000000;
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 163%;
+}
+
+@media screen and (max-width: 420px) {
+    .shopps__link {
+        font-size: 12px;
+    }
+}

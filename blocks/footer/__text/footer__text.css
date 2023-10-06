@@ -1,0 +1,16 @@
+.footer__text {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 163%;
+    text-align: left;
+}
+
+@media screen and (max-width: 420px) {
+    .footer__text {
+        font-size: 10px;
+    }
+}

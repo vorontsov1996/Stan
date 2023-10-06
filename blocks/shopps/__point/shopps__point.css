@@ -1,0 +1,8 @@
+.shopps__point {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.shopps__point:first-child {
+    padding-top: 0;
+}

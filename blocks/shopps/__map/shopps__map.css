@@ -1,0 +1,27 @@
+.shopps__map {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .shopps__map {
+        width: 100%;
+        min-width: 350px;
+        max-width: 700px;
+        border-radius: 0;
+        border: 0;
+        border-bottom: #000000 solid 2px;
+        border-top: #000000 solid 2px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .shopps__map {
+        min-width: 100%;
+    }
+}

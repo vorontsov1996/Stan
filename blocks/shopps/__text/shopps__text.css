@@ -1,0 +1,43 @@
+.shopps__text {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    padding-top: 40px;
+    max-width: 300px;
+}
+
+.shopps__text:first-child {
+    padding-top: 0;
+}
+
+.shopps__text:last-child {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 890px) {
+    .shopps__text {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shopps__text {
+        padding-top: 20px;
+    }
+    .shopps__text:first-child {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .shopps__text {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .shopps__text:first-child {
+        padding-top: 10px;
+    }
+}

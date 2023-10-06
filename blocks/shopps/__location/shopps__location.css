@@ -1,0 +1,20 @@
+.shopps__location {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 890px) {
+    .shopps__location {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shopps__location {
+        padding-left: 0;
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

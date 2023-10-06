@@ -1,0 +1,20 @@
+.shopps__discription_two{
+    display: none;
+}
+
+@media screen and (max-width: 890px) {
+    .shopps__discription_two {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shopps__discription_two {
+        display: none;
+
+    }
+}
