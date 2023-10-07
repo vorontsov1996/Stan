@@ -44,6 +44,4 @@
 @import url(../blocks/footer/footer.css);
 /*Элементы*/
 @import url(../blocks/footer/__wrap/footer__wrap.css);
-@import url(../blocks/footer/__tel/footer__tel.css);
 @import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__phone/footer__phone.css);
