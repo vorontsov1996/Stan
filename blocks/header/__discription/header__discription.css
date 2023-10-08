@@ -24,7 +24,7 @@
 @media screen and (max-width: 420px) {
     .header__discription {
         font-size: 10px;
-        max-width: 145px;
+        max-width: 180px;
         line-height: 10px;
         padding-bottom: 10px;
     }
